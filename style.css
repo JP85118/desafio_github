@@ -1,0 +1,31 @@
+*{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+title{
+    text-align: end;
+}
+
+h1{
+    color: brown;
+    size: 3rem;
+    text-align: center;
+}
+
+p{
+    size: 1rem;
+    margin-top: 1rem;
+}
+
+/* 
+Etiquetas y Pseudoelementos ------------ 0,0,0,1
+Clases, Atributos y Pseudoclases —-—-----0,0,1,0
+Identificadores ------------------------ 0,1,0,0
+Estilos en Línea ----------------------- 1,0,0,0
+!important ------------------------- ----Rompe la especificidad 
+ */
