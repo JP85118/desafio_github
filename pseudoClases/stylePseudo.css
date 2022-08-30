@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #323241;
+    font-family: 'Arima', cursive;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #242424;
+    max-width: 500px;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.container__title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+}
+
+.container__div{
+    padding: 2rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.enlace2{
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: azure;
+    text-decoration: none;
+}
+
+.parrafos p, .tipo_elementos div, .tipo_elementos span, .tipo_elementos h4, .tipo_elementos p, .lista_elementos li{
+    background-color: rgb(137, 155, 155);
+    padding: .8rem;
+    display: block;
+} 
+
+/* Pseudoclases de enlaces */
+
+.enlace:link{
+    background-color:blue;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.enlace:visited{
+    background-color: chocolate;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+/* Pseudoclases de raton */
+
+.enlace2:hover{
+    background-color: blue;
+    color: #f1f1f1;
+}
+
+.enlace2:active{
+    background-color:black;
+    color: aliceblue;
+}
+
+/* Pseudoclases de elementos hijos */
+
+.parrafos p:first-child{
+    background-color: gold;
+}
+
+.parrafos p:last-child{
+    background-color: violet;
+}
+
+.lista_elementos li:nth-last-child(2n){
+    background-color: chartreuse;
+}
+
+.lista_elementos li:nth-child(){
+    background-color: rgb(73, 78, 68);
+}
+
+
+/* Pseudoclases de elementos hijos tipo */
+
+.tipo_elementos span:first-of-type{
+    background-color: gold;
+}
+
+.tipo_elementos div:last-of-type{
+    background-color: violet;
+}
+
+.lista_elementos2 p:nth-of-type(1){
+    background-color: darkorange;
+    color: #f1f1f1;
+}
+
+/* formulario */
+
+.form .nombre:focus{
+    border: 5px solid blue;
+    background-color: aqua;
+}
