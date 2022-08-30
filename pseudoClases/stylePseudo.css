@@ -34,11 +34,15 @@ body{
     border-bottom: 1px solid #f1f1f1;
 }
 
-.enlace2{
+.enlace{
     display: block;
     margin-top: 1rem;
     padding: 1rem;
     background-color: azure;
+    text-decoration: none;
+}
+
+.enlace2{
     text-decoration: none;
 }
 
