@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* @import 'reset', 'colores'; */
+h1 {
+  color: rgb(235, 226, 226);
+  background-color: #55a;
+}
+
+a {
+  background-color: #55a;
+  color: rgb(235, 226, 226);
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+
+div a:nth-child(2) {
+  background-color: #4169e1;
+}
+
+.div {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 50vh;
+}
+.div__ul {
+  width: 50%;
+}
+.div__li {
+  display: block;
+  background-color: black;
+  width: 50%;
+}
+.div__a {
+  color: brown;
+  padding: 2rem;
+  background-color: azure;
+  margin-bottom: 1rem;
+}
+.div__a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

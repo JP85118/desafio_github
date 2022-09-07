@@ -1,0 +1,58 @@
+/* @import 'reset', 'colores'; */
+
+@use 'reset';
+@use 'colores';
+
+
+
+
+// Variables
+
+$color-primario:#55a;
+$color-secundario:rgb(235, 226, 226);
+$display:display;
+
+
+
+h1{
+    color: $color-secundario;
+    background-color: $color-primario;
+}
+
+a{
+    background-color: $color-primario;
+    color: $color-secundario;
+    text-decoration: none;
+    padding: 1rem;
+    // display:block;
+    #{$display}:block;
+}
+
+div a:nth-child(2){
+    background-color: colores.$myBlue;
+}
+
+.div{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 50vh;
+    &__ul{
+        width: 50%;
+    }
+    &__li{
+        display: block;
+        background-color: black;
+        width: 50%;
+    }
+    &__a{
+        color: brown;
+        padding: 2rem;
+        background-color: azure;
+        margin-bottom: 1rem;
+    }
+    &__a:hover{
+        background-color: aqua;
+        color: black;
+    }
+}
+

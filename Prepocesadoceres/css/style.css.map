@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/reset.scss","../sass/style.scss","../sass/_colores.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACHJ;AAgBA;EACI,OANc;EAOd,kBARY;;;AAWhB;EACI,kBAZY;EAaZ,OAZc;EAad;EACA;EAEA;;;AAGJ;EACI,kBC9BI;;;ADiCR;EACI;EACA;EACA;;AACA;EACI;;AAEJ;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA;EACA;;AAEJ;EACI;EACA","file":"style.css"}
